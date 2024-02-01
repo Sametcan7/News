@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="index.html">
+          <h1><strong>NEWS</strong></h1></a
+        >
+        <div>
+          <ul class="header-nav">
+            <li class="global">Home</li>
+            <li class="business">Business</li>
+            <li class="culture">Culture</li>
+            <li class="health">Health</li>
+            <li class="science">Science</li>
+            <li class="travel">Travel</li>
+            <li class="sport">Sport</li>
+            <li class="search">
+              <form>
+                <input
+                  placeholder="Search"
+                  class="input-search"
+                  type="text"
+                  id="f-search"
+                />
+                <button type="button" onclick="searchWithQuery()">
+                  search
+                </button>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="news-container"></div>
+    </main>
+    <script src="javascript.js"></script>
+  </body>
+</html>
