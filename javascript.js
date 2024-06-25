@@ -138,10 +138,6 @@ window.addEventListener("scroll", () => {
 });
 
 window.addEventListener("load", indexNews("global", page));
-
-let test = "123";
-let asd = function () {
-  console.log(test);
 };
 
 asd();
